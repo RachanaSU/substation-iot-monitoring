@@ -1,0 +1,14 @@
+Messages published over MQTT: 1440
+Sample payload: {"ts": "2026-07-15T00:00:00", "current_A": 311.7, "voltage_V": 407.8, "oil_temp_C": 37.7, "battery_V": 111.98, "load_pu": 0.45}
+Peak load: 1.30 pu | peak oil temp: 88.1 C | min LV voltage: 391.6 V | min battery: 102.94 V
+
+Alarm log:
+  13:01  RAISED  HIGH current_A
+  13:04  RAISED  FAST oil_temp_C rise
+  14:55  CLEARED FAST oil_temp_C rise
+  16:39  RAISED  HIGH oil_temp_C
+  17:00  CLEARED HIGH current_A
+  17:12  CLEARED HIGH oil_temp_C
+  22:54  RAISED  LOW battery_V
+
+Saved dashboard.png
